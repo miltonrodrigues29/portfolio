@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import { DiAws, DiNginx } from "react-icons/di";
 import {
   SiLinux,
   SiVisualstudiocode,
@@ -30,6 +31,12 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiIntellijidea />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiAws />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiNginx />
       </Col>
     </Row>
   );

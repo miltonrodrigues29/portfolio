@@ -15,6 +15,10 @@ import {
   SiNextdotjs,
   SiElasticsearch,
   SiJava,
+  SiPython,
+  SiNumpy,
+  SiTensorflow,
+  SiExpress,
 } from "react-icons/si";
 
 function Techstack() {
@@ -44,6 +48,15 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNumpy />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTensorflow />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiExpress />
       </Col>
     </Row>
   );

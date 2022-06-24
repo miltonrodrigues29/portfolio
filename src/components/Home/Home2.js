@@ -19,7 +19,7 @@ function Home2() {
               <br />
               <br />I code in
               <i>
-                <b className="purple"> Java and Javascript </b>
+                <b className="purple"> Javascript and Python </b>
               </i>
               <br />
               <br />

@@ -10,6 +10,7 @@ import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import MovieInfo from "../../Assets/Projects/Movie_Info.png";
 import BlogApp from "../../Assets/Projects/BlogApp.png";
+import Netflix from "../../Assets/Projects/netflixReact.png";
 
 function Projects() {
   return (
@@ -37,8 +38,17 @@ function Projects() {
               imgPath={BlogApp}
               isBlog={false}
               title="Blog Application"
-              description="Node.js web application to get movie information. Built using basic HTML, Javascript and OMDb API"
+              description="Blog Application, with Write, Update, Delete Posts, Authentication, Update User Profile features. Built using React for frontend and Express for RESTful services "
               link="http://3.111.37.254:3000/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Netflix}
+              isBlog={false}
+              title="Netlix Frontend-React"
+              description="Frontend Template of Netflix, Built using React and Hosted in netlify"
+              link="https://miltonnetflixreactfrontend.netlify.app/"
             />
           </Col>
 
