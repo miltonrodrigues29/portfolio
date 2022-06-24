@@ -9,6 +9,7 @@ import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 import MovieInfo from "../../Assets/Projects/Movie_Info.png";
+import BlogApp from "../../Assets/Projects/BlogApp.png";
 
 function Projects() {
   return (
@@ -29,6 +30,15 @@ function Projects() {
               title="Movie Info"
               description="Node.js web application to get movie information. Built using basic HTML, Javascript and OMDb API"
               link="https://github.com/miltonrodrigues29/movies-info"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={BlogApp}
+              isBlog={false}
+              title="Blog Application"
+              description="Node.js web application to get movie information. Built using basic HTML, Javascript and OMDb API"
+              link="http://3.111.37.254:3000/"
             />
           </Col>
 
