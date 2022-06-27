@@ -30,7 +30,7 @@ function Projects() {
               isBlog={false}
               title="Movie Info"
               description="Node.js web application to get movie information. Built using basic HTML, Javascript and OMDb API"
-              link="https://github.com/miltonrodrigues29/movies-info"
+              link="https://polar-gorge-19470.herokuapp.com/"
             />
           </Col>
           <Col md={4} className="project-card">
