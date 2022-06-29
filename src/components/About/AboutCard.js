@@ -10,7 +10,8 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Milton Rodrigues </span>
             from <span className="purple"> Karnataka, India.</span>
-            <br />I work as a Full Stack Developer at Tata Elxsi, Bangalore
+            <br />I work as a Software Engineer at London Stock Exchange Group,
+            Bangalore
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
